@@ -1,6 +1,6 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 
-const EmpresaSchema = mongoose.Schema({
+const EmpresaSchema = new mongoose.Schema({
     nombre: {
         type: String,
         required: [true, "El nombre es obligatorio"],
@@ -39,4 +39,4 @@ EmpresaSchema.methods.toJSON = function () {
     return empresa;
 };
 
-export default mongoose.model('Empresa', EmpresaSchema);
+module.exports = mongoose.model('Empresa', EmpresaSchema);
