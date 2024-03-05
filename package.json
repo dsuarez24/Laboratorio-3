@@ -9,7 +9,7 @@
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "Rodrigo Chanquín",
+  "author": "Diego Suarez",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
