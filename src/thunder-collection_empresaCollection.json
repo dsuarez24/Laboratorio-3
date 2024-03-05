@@ -1,0 +1,159 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "empresaCollection",
+    "dateExported": "2024-03-03T06:01:05.143Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7cda5f9a-e917-4d78-9841-42be47a5725b",
+            "colId": "713c3356-3ad9-474c-a9f8-a16dd9b71706",
+            "containerId": "",
+            "name": "empresaPost",
+            "url": "http://localhost:8080/coperex_Api/v1/empresas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T05:50:07.154Z",
+            "modified": "2024-03-03T05:50:51.046Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZjJjMTlmMTk5MzcyMzUxN2Y2YTciLCJpYXQiOjE3MDk0NDUwMjEsImV4cCI6MTcwOTQ0ODYyMX0.S7eM6CHsOgDzPrjnQ8Jgx_wM5qF6OFaFqnPQmCa0U6o"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"nombre\": \"Warner JR2\",\n\"impacto\": \"Global\",\n\"años\": \"50\",\n\"telefono\": \"11794685\",\n\"categoria\": \"Gamer\",\n\"correo\": \"warner2@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7f4a9c31-9064-4c44-9dc4-cd3472879db7",
+            "colId": "713c3356-3ad9-474c-a9f8-a16dd9b71706",
+            "containerId": "",
+            "name": "empresaGet",
+            "url": "http://localhost:8080/coperex_Api/v1/empresas",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-03T05:50:07.155Z",
+            "modified": "2024-03-03T05:57:42.341Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZjJjMTlmMTk5MzcyMzUxN2Y2YTciLCJpYXQiOjE3MDk0NDUwMjEsImV4cCI6MTcwOTQ0ODYyMX0.S7eM6CHsOgDzPrjnQ8Jgx_wM5qF6OFaFqnPQmCa0U6o"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6c6f4f91-50ba-4c4d-89ca-7f7f6d975e57",
+            "colId": "713c3356-3ad9-474c-a9f8-a16dd9b71706",
+            "containerId": "",
+            "name": "empresasGetAZ",
+            "url": "http://localhost:8080/coperex_Api/v1/empresas/empresasAZ?filtro=A-Z",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-03T05:50:07.156Z",
+            "modified": "2024-03-03T05:52:05.007Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZjJjMTlmMTk5MzcyMzUxN2Y2YTciLCJpYXQiOjE3MDk0NDUwMjEsImV4cCI6MTcwOTQ0ODYyMX0.S7eM6CHsOgDzPrjnQ8Jgx_wM5qF6OFaFqnPQmCa0U6o"
+                }
+            ],
+            "params": [
+                {
+                    "name": "filtro",
+                    "value": "A-Z",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "44997385-8021-4753-a0e5-8188dcc69967",
+            "colId": "713c3356-3ad9-474c-a9f8-a16dd9b71706",
+            "containerId": "",
+            "name": "empresasGetZA",
+            "url": "http://localhost:8080/coperex_Api/v1/empresas/empresasZA?filtro=A-Z",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-03T05:50:07.157Z",
+            "modified": "2024-03-03T05:57:46.158Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZjJjMTlmMTk5MzcyMzUxN2Y2YTciLCJpYXQiOjE3MDk0NDUwMjEsImV4cCI6MTcwOTQ0ODYyMX0.S7eM6CHsOgDzPrjnQ8Jgx_wM5qF6OFaFqnPQmCa0U6o"
+                }
+            ],
+            "params": [
+                {
+                    "name": "filtro",
+                    "value": "A-Z",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "5ed6670d-2b5e-45c1-a2cc-913f2d1fe679",
+            "colId": "713c3356-3ad9-474c-a9f8-a16dd9b71706",
+            "containerId": "",
+            "name": "empresasGetAñosMen",
+            "url": "http://localhost:8080/coperex_Api/v1/empresas/empresasMem",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-03-03T05:50:07.158Z",
+            "modified": "2024-03-03T05:57:48.262Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZjJjMTlmMTk5MzcyMzUxN2Y2YTciLCJpYXQiOjE3MDk0NDUwMjEsImV4cCI6MTcwOTQ0ODYyMX0.S7eM6CHsOgDzPrjnQ8Jgx_wM5qF6OFaFqnPQmCa0U6o"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0b0ee9b3-f996-42e1-b6c2-d2fdd328bb2f",
+            "colId": "713c3356-3ad9-474c-a9f8-a16dd9b71706",
+            "containerId": "",
+            "name": "empresasGetAñosMas",
+            "url": "http://localhost:8080/coperex_Api/v1/empresas/empresasMas",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-03-03T05:50:07.159Z",
+            "modified": "2024-03-03T05:57:50.228Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZjJjMTlmMTk5MzcyMzUxN2Y2YTciLCJpYXQiOjE3MDk0NDUwMjEsImV4cCI6MTcwOTQ0ODYyMX0.S7eM6CHsOgDzPrjnQ8Jgx_wM5qF6OFaFqnPQmCa0U6o"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cad204f5-1fa5-49e2-a6b9-e63e916a8b6c",
+            "colId": "713c3356-3ad9-474c-a9f8-a16dd9b71706",
+            "containerId": "",
+            "name": "empresaReporteExcelGet",
+            "url": "http://localhost:8080/coperex_Api/v1/empresas/reportExcel",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-03T05:50:07.160Z",
+            "modified": "2024-03-03T05:59:00.095Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzZjJjMTlmMTk5MzcyMzUxN2Y2YTciLCJpYXQiOjE3MDk0NDUwMjEsImV4cCI6MTcwOTQ0ODYyMX0.S7eM6CHsOgDzPrjnQ8Jgx_wM5qF6OFaFqnPQmCa0U6o"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
